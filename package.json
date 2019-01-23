@@ -1,0 +1,20 @@
+{
+  "name": "lsdiscordbot",
+  "version": "1.0.0",
+  "description": "Let's Shoot Discord Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "Marc Schieferdecker",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "google-spreadsheets-to-2d-array": "^0.1.0",
+    "node-opus": "^0.3.1",
+    "youtube-channel-videos": "^1.0.0",
+    "ytdl-core": "^0.29.1"
+  }
+}

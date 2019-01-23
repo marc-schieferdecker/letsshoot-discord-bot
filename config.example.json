@@ -1,0 +1,43 @@
+{
+    "Token": "",
+    "BotMsgPrefix": "!ls ",
+    "TipeeeCheckRolesIntervalMinutes": 60,
+    "TipeeeDataSheetId": "",
+    "GoogleClientCredentials": {
+        "credentials": {
+            "type": "service_account",
+            "project_id": "",
+            "private_key_id": "",
+            "private_key": "",
+            "client_email": "",
+            "client_id": "",
+            "auth_uri": "",
+            "token_uri": "",
+            "auth_provider_x509_cert_url": "",
+            "client_x509_cert_url": ""
+        }
+    },
+    "YouTubeApiKey": "",
+    "YouTubeChannelId": "UCCBM5_mz3e1SWlbe8MD9boQ",
+    "ActivityString": "!ls help",
+    "AutoroleName": "Aktiv",
+    "AutoroleCheckRolesIntervalMinutes": 5,
+    "InfoChannelName": "news",
+    "RadioChannelName": "radio",
+    "RadioTextChannelName": "radiochat",
+    "RadioStations": [
+        {"Station": "Let's Shoot", "YouTubeChannelId": "UCCBM5_mz3e1SWlbe8MD9boQ"},
+        {"Station": "Gordons Reloading Channel", "YouTubeChannelId": "UCEdG4IMYRhSA4Tc09hUKN_A"},
+        {"Station": "Deutsche Schützen", "YouTubeChannelId": "UCkFrX74o3eaepd0idHXx6Rw"},
+        {"Station": "wiederladerTv", "YouTubeChannelId": "UCw02LOPGRYM7QiVnfJuOrvA"},
+        {"Station": "Lassen Sie Es Krachen", "YouTubeChannelId": "UCNj_cyh0wyUB5eieMIBRVjQ"},
+        {"Station": "AirGhandi", "YouTubeChannelId": "UCBbx3ygdWygo6qeGJBPvjaQ"},
+        {"Station": "Frankonia (Team Winz)", "YouTubeChannelId": "UC_FJtflzpwwh7RD1vwHa-hQ"},
+        {"Station": "ePIG Group", "YouTubeChannelId": "UCuS6wbED-BeCrkonNTwT9zQ"},
+        {"Station": "Bulletonic", "YouTubeChannelId": "UCg44h9TsFidf6pS2yB44E2Q"},
+        {"Station": "Karabinercafé", "YouTubeChannelId": "UCEgYe5vyMY3TrWG42weHKOA"},
+	{"Station": "impfunk", "YouTubeChannelId": "UCi_Y8rdLSLufgcPseYe0JSg"},
+	{"Station": "ben.spricht.podcast", "YouTubeChannelId": "UC8dmRE28q0LSPKQMFqJYS7w"}
+    ],
+    "HelpTextFile": "help.msg"
+}

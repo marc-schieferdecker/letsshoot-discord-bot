@@ -1,5 +1,6 @@
 #!/bin/bash
 
+SCREEN="/usr/bin/screen"
 NODE="/usr/bin/node"
 HOMEPATH="/home/bot"
 SCREEN1="messages"
@@ -9,6 +10,6 @@ SCREEN3="roles"
 # Changedir
 cd $HOMEPATH
 
-/usr/bin/screen -S $SCREEN1 -X quit
-/usr/bin/screen -S $SCREEN2 -X quit
-/usr/bin/screen -S $SCREEN3 -X quit
+$SCREEN -S $SCREEN1 -X quit
+$SCREEN -S $SCREEN2 -X quit
+$SCREEN -S $SCREEN3 -X quit

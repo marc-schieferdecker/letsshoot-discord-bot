@@ -36,8 +36,8 @@
         {"Station": "ePIG Group", "YouTubeChannelId": "UCuS6wbED-BeCrkonNTwT9zQ"},
         {"Station": "Bulletonic", "YouTubeChannelId": "UCg44h9TsFidf6pS2yB44E2Q"},
         {"Station": "Karabinercafé", "YouTubeChannelId": "UCEgYe5vyMY3TrWG42weHKOA"},
-	{"Station": "impfunk", "YouTubeChannelId": "UCi_Y8rdLSLufgcPseYe0JSg"},
-	{"Station": "ben.spricht.podcast", "YouTubeChannelId": "UC8dmRE28q0LSPKQMFqJYS7w"}
+        {"Station": "impfunk", "YouTubeChannelId": "UCi_Y8rdLSLufgcPseYe0JSg"},
+        {"Station": "ben.spricht.podcast", "YouTubeChannelId": "UC8dmRE28q0LSPKQMFqJYS7w"}
     ],
     "HelpTextFile": "help.msg"
 }

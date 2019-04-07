@@ -17,6 +17,9 @@ The Let's Shoot Discord Bot is a simple discord bot with some neat functions. Th
 * Tipeee integration (config.json)
     * You can setup a Google spreadsheet in which you save your Tipeee supporters
     * The bot reads that sheet and gives the defined role to the defined user
+* Auto trash module
+    * Deletes messages that are older than a specified amount of time
+    * You cann activate this module for multiple channels (config.json)
 
 Installation
 ============
@@ -84,6 +87,10 @@ This is the config file template. Edit and save the "config.example.json" to "co
         {"Station": "impfunk", "YouTubeChannelId": "UCi_Y8rdLSLufgcPseYe0JSg"},
         {"Station": "ben.spricht.podcast", "YouTubeChannelId": "UC8dmRE28q0LSPKQMFqJYS7w"}
     ],
+    "AutoTrashChannels": [
+        "voicechat"
+    ],
+    "AutoTrashTimeBorderMinutes": 360,
     "HelpTextFile": "help.msg"
 }
 ```

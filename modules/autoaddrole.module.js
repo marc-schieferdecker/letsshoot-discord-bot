@@ -1,5 +1,5 @@
 /**
- * Add autorole to users without any role#
+ * Add autorole to users without any role
  */
 var autoaddroleModule = module.exports = {
     cfg: require('../config.json'),
@@ -42,13 +42,14 @@ var autoaddroleModule = module.exports = {
                 if(!has_role && User.presence.status != 'offline') {
                     // Get member and add autorole
                     let Member = client.guilds.array()[0].members.find(member => member.id === User.id);
-                    Member.addRole(autoaddroleModule.autoaddrole.id);
-
-                    // Send msg
-                    client.channels.find(channel => channel.name == autoaddroleModule.cfg.InfoChannelName).send(
-                        `${User.username} ist nun seit einiger Zeit online, hat aber keine Rolle. Ich verpasse ihm mal die Rolle ${autoaddroleModule.cfg.AutoroleName}.`
-                    );
-                    console.log(`User ${User.username} ist online und hat keine Rolle! Fuege die Autorolle hinzu!`);
+                    Member.addRole(autoaddroleModule.autoaddrole.id).then( () => {
+                        // Send msg
+                        client.channels.find(channel => channel.name == autoaddroleModule.cfg.InfoChannelName).send(
+                            `${User.username} ist nun seit einiger Zeit online, hat aber keine Rolle. Ich verpasse ihm mal die Rolle ${autoaddroleModule.cfg.AutoroleName}.`
+                        );
+                        // Log
+                        console.log(`User ${User.username} ist online und hat keine Rolle! Fuege die Autorolle hinzu!`);
+                    }).catch(console.error);
                 }
             }
         }

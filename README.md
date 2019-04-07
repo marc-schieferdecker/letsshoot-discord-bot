@@ -19,7 +19,7 @@ The Let's Shoot Discord Bot is a simple discord bot with some neat functions. Th
     * The bot reads that sheet and gives the defined role to the defined user
 * Auto trash module
     * Deletes messages that are older than a specified amount of time
-    * You cann activate this module for multiple channels (config.json)
+    * You can activate this module for multiple channels (config.json)
 
 Installation
 ============

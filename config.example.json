@@ -43,5 +43,12 @@
         "voicechat"
     ],
     "AutoTrashTimeBorderMinutes": 360,
-    "HelpTextFile": "help.msg"
+    "HelpTextFile": "help.msg",
+    "TipeeeRoles": [
+        "Statist",
+        "Beleuchter",
+        "Tonmann",
+        "Kameramann",
+        "Produzent"
+    ]
 }
